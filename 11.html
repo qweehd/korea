@@ -1,0 +1,44 @@
+<!PicS 설명>
+<html>
+<head>
+  <title>PicS - 레스토랑</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+<body>
+  <div id="bt">
+  <input id="night_day" type="button" value="주간모드" onclick="
+    nightDayHandler(this);
+  "><br>
+    <h1><a href="index.html">Pics</a></h1>
+  </div>
+  <div id="search">
+    <input type="search" id="site-search" name="q"
+          placeholder="원하는 분위기를 검색하세요."
+         aria-label="Search through site content"
+         style="width:320px"
+         >
+         <button>검색</button>
+  </div>
+  <div id="grid">
+    <ul>
+      <li><a href="11.html" class="active">레스토랑</a></li>
+      <li><a href="22.html">음식점</a></li>
+      <li><a href="33.html">카페</a></li>
+    </ul>
+    <div id="article">
+      <h2>이런 곳은 어떠세요?</h2>
+      <a href="33.html"><img src="1.jpg" width="380"></a>
+      <a href="11.html"><img src="4.jpg" width="380"></a>
+      <h2>Italy 레스토랑</h2>
+      <a href="11.html"><img src="1.jpg" width="380"></a>
+      <a href="22.html"><img src="2.jpg" width="380"></a>
+      <h2>France 레스토랑</h2>
+      <a href="33.html"><img src="3.jpg" width="380"></a>
+      <a href="22.html"><img src="4.jpg" width="380"></a>
+    </div>
+   </div>
+</body>
+</html>
